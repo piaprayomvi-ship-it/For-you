@@ -1,0 +1,870 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For Aanwuu Didiii 💙</title>
+
+<style>
+
+/* =========================
+   BASIC SETTINGS
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    color: white;
+
+    background:
+        linear-gradient(
+            rgba(3, 12, 35, 0.72),
+            rgba(2, 8, 25, 0.90)
+        ),
+        url("blue-flower.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 25px;
+}
+
+.hero-box {
+    max-width: 850px;
+
+    padding: 60px 35px;
+
+    background: rgba(2, 15, 42, 0.78);
+
+    border: 1px solid rgba(255,255,255,0.25);
+
+    border-radius: 25px;
+
+    box-shadow:
+        0 20px 60px rgba(0,0,0,0.55);
+
+    backdrop-filter: blur(5px);
+}
+
+.small-heading {
+    font-size: 17px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+    color: #bcd9ff;
+
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: clamp(50px, 9vw, 90px);
+    font-weight: normal;
+
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 21px;
+    line-height: 1.8;
+
+    color: #dceaff;
+}
+
+.button {
+    display: inline-block;
+
+    margin-top: 30px;
+
+    padding: 14px 32px;
+
+    border-radius: 30px;
+
+    color: white;
+    text-decoration: none;
+
+    background: #173d78;
+
+    border: 1px solid #86b4ec;
+
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #285da0;
+
+    transform: translateY(-3px);
+}
+
+
+/* =========================
+   SECTIONS
+========================= */
+
+section {
+    padding: 90px 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+
+    font-size: 45px;
+    font-weight: normal;
+
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    text-align: center;
+
+    color: #c4d8f5;
+
+    font-size: 18px;
+
+    margin-bottom: 45px;
+}
+
+
+/* =========================
+   MESSAGE
+========================= */
+
+.message-box {
+    background: rgba(2, 15, 42, 0.82);
+
+    padding: 45px;
+
+    border-radius: 25px;
+
+    border: 1px solid rgba(255,255,255,0.20);
+
+    box-shadow:
+        0 15px 50px rgba(0,0,0,0.40);
+
+    font-size: 19px;
+
+    line-height: 2;
+}
+
+.message-box p {
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   RAKHI
+========================= */
+
+.rakhi-section {
+    text-align: center;
+}
+
+.rakhi {
+    width: 240px;
+    height: 170px;
+
+    margin: 55px auto;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Threads */
+
+.thread {
+    position: absolute;
+
+    height: 12px;
+
+    width: 115px;
+
+    top: 79px;
+
+    background:
+        linear-gradient(
+            to bottom,
+            #c28b24,
+            #f4d67b,
+            #a96d12
+        );
+}
+
+.thread-left {
+    right: 105px;
+}
+
+.thread-right {
+    left: 105px;
+}
+
+
+/* Rakhi center */
+
+.rakhi-center {
+
+    width: 140px;
+    height: 140px;
+
+    border-radius: 50%;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background:
+        radial-gradient(
+            circle,
+            #fff1a8 0%,
+            #d7a83b 12%,
+            #f3d679 25%,
+            #ad7419 38%,
+            #efd16b 55%,
+            #9b6412 70%,
+            #d7a83b 100%
+        );
+
+    border: 6px solid #f0cd67;
+
+    box-shadow:
+        0 0 0 8px rgba(229,177,55,0.25),
+        0 0 35px rgba(240,200,90,0.55);
+}
+
+
+/* Decorative jewels */
+
+.jewel {
+    position: absolute;
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 50%;
+
+    background: #fff4bd;
+
+    box-shadow:
+        0 0 8px white;
+}
+
+.jewel1 {
+    top: 12px;
+    left: 61px;
+}
+
+.jewel2 {
+    right: 12px;
+    top: 61px;
+}
+
+.jewel3 {
+    bottom: 12px;
+    left: 61px;
+}
+
+.jewel4 {
+    left: 12px;
+    top: 61px;
+}
+
+
+/* Aanwi's name */
+
+.name {
+    text-align: center;
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    color: #4d2c00;
+
+    text-shadow:
+        0 1px 2px #fff0a0;
+}
+
+
+/* =========================
+   PHOTOS
+========================= */
+
+.photo-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(230px, 1fr));
+
+    gap: 25px;
+}
+
+.photo-card {
+
+    background:
+        rgba(2,15,42,0.82);
+
+    padding: 12px;
+
+    border-radius: 18px;
+
+    border:
+        1px solid rgba(255,255,255,0.20);
+
+    transition: 0.3s;
+}
+
+.photo-card:hover {
+    transform: translateY(-6px);
+}
+
+.photo-card img {
+
+    width: 100%;
+
+    height: 290px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    display: block;
+}
+
+.caption {
+
+    text-align: center;
+
+    padding: 15px 5px 8px;
+
+    color: #d6e6ff;
+
+    font-size: 16px;
+}
+
+
+/* =========================
+   VIDEOS
+========================= */
+
+.video-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(300px, 1fr));
+
+    gap: 25px;
+}
+
+.video-card {
+
+    background:
+        rgba(2,15,42,0.82);
+
+    padding: 12px;
+
+    border-radius: 18px;
+
+    border:
+        1px solid rgba(255,255,255,0.20);
+}
+
+.video-card video {
+
+    width: 100%;
+
+    border-radius: 12px;
+
+    display: block;
+}
+
+
+/* =========================
+   FINAL MESSAGE
+========================= */
+
+.final {
+
+    min-height: 70vh;
+
+    display: flex;
+
+    align-items: center;
+
+    text-align: center;
+}
+
+.final-box {
+
+    max-width: 800px;
+
+    margin: auto;
+}
+
+.final-box h2 {
+
+    font-size: 50px;
+
+    font-weight: normal;
+
+    margin-bottom: 25px;
+}
+
+.final-box p {
+
+    font-size: 20px;
+
+    line-height: 1.9;
+
+    color: #dceaff;
+
+    margin-bottom: 20px;
+}
+
+.signature {
+
+    font-size: 27px !important;
+
+    color: #ffffff !important;
+
+    margin-top: 35px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+
+    padding: 30px;
+
+    text-align: center;
+
+    background:
+        rgba(1,7,22,0.88);
+
+    color: #aebfd9;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    .hero-box {
+        padding: 45px 20px;
+    }
+
+    .message-box {
+        padding: 28px 22px;
+        font-size: 17px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .final-box h2 {
+        font-size: 38px;
+    }
+
+    .thread {
+        width: 75px;
+    }
+
+    .thread-left {
+        right: 95px;
+    }
+
+    .thread-right {
+        left: 95px;
+    }
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- ==================================================
+     HERO
+================================================== -->
+
+<section class="hero">
+
+    <div class="hero-box">
+
+        <div class="small-heading">
+            Raksha Bandhan
+        </div>
+
+        <h1>
+            For Aanwi 💙
+        </h1>
+
+        <p>
+            Some bonds aren't created by blood.
+            <br>
+            Some are created by the heart.
+        </p>
+
+        <a href="#message" class="button">
+            Open This 💙
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     MESSAGE
+================================================== -->
+
+<section id="message">
+
+    <div class="container">
+
+        <h2 class="title">
+            To My Sister
+        </h2>
+
+        <p class="subtitle">
+            A little something I made for you.
+        </p>
+
+
+        <div class="message-box">
+
+            <p>
+                Dear Pyaru,
+            </p>
+
+            <p>
+                We may not share the same blood,
+                but that has never made the bond
+                between us any less real.
+            </p>
+
+            <p>
+                Some people simply become family
+                because the heart chooses them.
+                And you are one of those people.
+            </p>
+
+            <p>
+                Life will change.
+                We will grow.
+                We will walk through different
+                chapters of our lives.
+            </p>
+
+            <p>
+                But I hope that no matter how much
+                time passes, this bond remains
+                something special.
+            </p>
+
+            <p>
+                Happy Raksha Bandhan, Aanwi. 💙
+            </p>
+
+            <p>
+                — Your Annoyingg Brotherr😜😜
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     RAKHI
+================================================== -->
+
+<section class="rakhi-section">
+
+    <div class="container">
+
+        <h2 class="title">
+            A Rakhi For Aanwi
+        </h2>
+
+        <p class="subtitle">
+            A thread carrying a little piece of our bond.
+        </p>
+
+
+        <div class="rakhi">
+
+            <div class="thread thread-left"></div>
+
+            <div class="thread thread-right"></div>
+
+
+            <div class="rakhi-center">
+
+                <div class="jewel jewel1"></div>
+                <div class="jewel jewel2"></div>
+                <div class="jewel jewel3"></div>
+                <div class="jewel jewel4"></div>
+
+                <div class="name">
+                    Aanwuu didii
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <p class="subtitle">
+            For the sister I chose with my heart. 💙
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     MEMORIES / PHOTOS
+================================================== -->
+
+<section>
+
+    <div class="container">
+
+        <h2 class="title">
+            Our Memories
+        </h2>
+
+        <p class="subtitle">
+            A few moments worth keeping forever.
+        </p>
+
+
+        <div class="photo-grid">
+
+
+            <!-- PHOTO 1 -->
+
+            <div class="photo-card">
+
+                <img
+                    src="photo1.jpg"
+                    alt="Memory with Aanwi"
+                >
+
+                <div class="caption">
+                    A memory worth keeping 💙
+                </div>
+
+            </div>
+
+
+
+            <!-- PHOTO 2 -->
+
+            <div class="photo-card">
+
+                <img
+                    src="photo2.jpg"
+                    alt="Memory with Aanwi"
+                >
+
+                <div class="caption">
+                    One of those moments ✨
+                </div>
+
+            </div>
+
+
+
+            <!-- PHOTO 3 -->
+
+            <div class="photo-card">
+
+                <img
+                    src="photo3.jpg"
+                    alt="Memory with Aanwi"
+                >
+
+                <div class="caption">
+                    A little piece of our story
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     VIDEOS
+================================================== -->
+
+<section>
+
+    <div class="container">
+
+        <h2 class="title">
+            Little Moments
+        </h2>
+
+        <p class="subtitle">
+            Some memories are better seen than written.
+        </p>
+
+
+        <div class="video-grid">
+
+
+            <!-- VIDEO 1 -->
+
+            <div class="video-card">
+
+                <video controls>
+
+                    <source
+                        src="video1.mp4"
+                        type="video/mp4"
+                    >
+
+                    Your browser does not support video.
+
+                </video>
+
+            </div>
+
+
+
+            <!-- VIDEO 2 -->
+
+            <div class="video-card">
+
+                <video controls>
+
+                    <source
+                        src="video2.mp4"
+                        type="video/mp4"
+                    >
+
+                    Your browser does not support video.
+
+                </video>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     FINAL MESSAGE
+================================================== -->
+
+<section class="final">
+
+    <div class="final-box">
+
+        <h2>
+            And one last thing...
+        </h2>
+
+
+        <p>
+            Thank you for being my sister,
+            for being there,
+            and simply for being you.
+        </p>
+
+
+        <p>
+            I don't know what the future holds,
+            but wherever life takes us,
+            you'll always have a brother
+            cheering for you.
+        </p>
+
+
+        <p class="signature">
+            Happy Raksha Bandhan, Aanwuu 💙
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     FOOTER
+================================================== -->
+
+<footer>
+
+    Made with love for youu❤️❤️
+
+</footer>
+
+
+</body>
+</html>
+```
